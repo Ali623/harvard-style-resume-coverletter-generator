@@ -15,8 +15,8 @@ streamlit run app.py
 
 **CLI:**
 ```
-python generate_resume.py --company "Bending Spoons" --role "Graduate AI Software Engineer"
-python generate_coverletter.py --company "Bending Spoons" --role "Graduate AI Software Engineer"
+python generate_resume.py --company "Acme Corp" --role "Software Engineer"
+python generate_coverletter.py --company "Acme Corp" --role "Software Engineer"
 ```
 
 Output goes to `<Company>-<Role>/` folder containing `Resume.docx` and `CoverLetter.docx` (plus `.pdf` if LibreOffice is installed).

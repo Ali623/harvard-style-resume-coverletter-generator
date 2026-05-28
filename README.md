@@ -63,8 +63,8 @@ Edit `.env` and fill in your credentials:
 streamlit run app.py
 
 # Or use CLI
-python generate_resume.py --company "Bending Spoons" --role "Graduate AI Software Engineer"
-python generate_coverletter.py --company "Bending Spoons" --role "Graduate AI Software Engineer"
+python generate_resume.py --company "Acme Corp" --role "Software Engineer"
+python generate_coverletter.py --company "Acme Corp" --role "Software Engineer"
 ```
 
 ## Streamlit UI
@@ -82,8 +82,8 @@ python generate_coverletter.py --company "Bending Spoons" --role "Graduate AI So
 
 ```bash
 # With specific company/role
-python generate_resume.py --company "Bending Spoons" --role "Graduate AI Software Engineer"
-python generate_coverletter.py --company "Bending Spoons" --role "Graduate AI Software Engineer"
+python generate_resume.py --company "Acme Corp" --role "Software Engineer"
+python generate_coverletter.py --company "Acme Corp" --role "Software Engineer"
 
 # Using defaults
 python generate_resume.py

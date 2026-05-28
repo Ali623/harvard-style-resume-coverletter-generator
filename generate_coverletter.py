@@ -1,7 +1,7 @@
 """CLI entry point for cover letter generation.
 
 Usage:
-    python generate_coverletter.py --company "Bending Spoons" --role "Graduate AI Software Engineer"
+    python generate_coverletter.py --company "Acme Corp" --role "Software Engineer"
     python generate_coverletter.py   # uses defaults
 """
 

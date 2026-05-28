@@ -1,7 +1,7 @@
 """CLI entry point for resume generation.
 
 Usage:
-    python generate_resume.py --company "Bending Spoons" --role "Graduate AI Software Engineer"
+    python generate_resume.py --company "Acme Corp" --role "Software Engineer"
     python generate_resume.py   # uses defaults
 """
 
