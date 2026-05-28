@@ -85,7 +85,7 @@ def _get_file_server():
 
     import functools
     # Serve from filesystem root so any save directory is reachable
-    root = "C:\\" if os.name == "nt" else "/"
+    root = os.path.splitdrive(os.getcwd())[0] + "\\" if os.name == "nt" else "/"
     handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=root)
 
     server = http.server.ThreadingHTTPServer(("127.0.0.1", port), handler)
@@ -103,10 +103,10 @@ def _pdf_link(filepath: str, label: str) -> None:
         st.warning(f"PDF not ready: {os.path.basename(filepath)}")
         return
     port = _get_file_server()
-    # Server root is C:\ so path is everything after the drive letter
+    # Strip drive letter (server root is the drive root)
     abs_path = os.path.abspath(filepath).replace("\\", "/")
-    if abs_path[1:3] == ":/":
-        abs_path = abs_path[2:]  # strip "C:" prefix
+    drive, path = os.path.splitdrive(abs_path)
+    abs_path = path if drive else abs_path
     url = f"http://127.0.0.1:{port}{abs_path}"
     st.markdown(
         f'<a href="{url}" target="_blank" style="display:inline-block;padding:6px 16px;'
@@ -131,7 +131,7 @@ role = st.sidebar.text_input("Job Title",
                               help="Auto-filled from parsed JSON or AI Generate.")
 
 st.sidebar.subheader("Save location")
-default_dir = r"C:\Users\HP\OneDrive\resume\Harverd resume\full_time"
+default_dir = os.path.join(os.getcwd(), "output")
 save_dir = st.sidebar.text_input("Output directory", value=default_dir, key="save_dir")
 if not save_dir:
     save_dir = tempfile.gettempdir()
