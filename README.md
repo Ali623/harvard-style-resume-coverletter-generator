@@ -2,11 +2,61 @@
 
 Generates Aliullah's resume and cover letter as A4 `.docx` and `.pdf` files. Two ways to use it: a Streamlit web UI or CLI scripts.
 
-## Quick start
+## Setup
+
+### With uv (recommended)
 
 ```bash
-pip install python-docx streamlit
+# Create venv and install dependencies in one step
+uv sync
+
+# Activate the venv
+# Windows:
+.venv\Scripts\activate
+# macOS / Linux:
+source .venv/bin/activate
+
+# Install Playwright browsers (needed for job scraping)
+playwright install chromium
+```
+
+### With standard venv
+
+```bash
+# Create virtual environment
+python -m venv .venv
+
+# Activate it
+# Windows:
+.venv\Scripts\activate
+# macOS / Linux:
+source .venv/bin/activate
+
+# Install dependencies
+pip install python-docx streamlit requests python-dotenv playwright
+# Windows only:
+pip install pywin32
+# Install Playwright browsers (needed for job scraping)
+playwright install chromium
+```
+
+### Configure API key
+
+```bash
+# Copy the example env file and add your DeepSeek API key
+cp .env.example .env
+# Edit .env and set DEEPSEEK_API_KEY=your-key-here
+```
+
+### Run
+
+```bash
+# Streamlit web UI
 streamlit run app.py
+
+# Or use CLI
+python generate_resume.py --company "Bending Spoons" --role "Graduate AI Software Engineer"
+python generate_coverletter.py --company "Bending Spoons" --role "Graduate AI Software Engineer"
 ```
 
 ## Streamlit UI
