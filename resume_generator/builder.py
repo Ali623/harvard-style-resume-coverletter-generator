@@ -85,7 +85,7 @@ def _validate_cover(c: CoverLetter) -> Budget:
 def build_resume(resume: Resume, output_dir: str = ".", company: str = "", job_title: str = "", timestamp: str = "") -> str:
     """Build resume .docx, validate char budgets, return path."""
     budget = _validate_resume(resume)
-    filename = "Aliullah-Resume.docx"
+    filename = "Resume.docx"
     doc = new_doc()
     set_page_letter(doc)
 
@@ -201,7 +201,7 @@ def build_resume(resume: Resume, output_dir: str = ".", company: str = "", job_t
 def build_coverletter(cover: CoverLetter, output_dir: str = ".", company: str = "", job_title: str = "", timestamp: str = "") -> str:
     """Build cover letter .docx, validate char budgets, return path."""
     budget = _validate_cover(cover)
-    filename = "Aliullah-CoverLetter.docx"
+    filename = "CoverLetter.docx"
     doc = new_doc()
     set_page_letter(doc, top=720, right=540, bottom=360, left=540)
 

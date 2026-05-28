@@ -35,13 +35,13 @@ class Project:
 
 @dataclass
 class Resume:
-    full_name: str = "Aliullah"
-    address: str = "Rothenburger Str. 145, Nuremberg"
-    phone: str = "+4917658127708"
-    email: str = "aliullah623@gmail.com"
-    linkedin: str = "linkedin.com/in/aliullah623"
-    github: str = "github.com/Ali623"
-    portfolio: str = "ali623.github.io"
+    full_name: str = "Your Name"
+    address: str = ""
+    phone: str = ""
+    email: str = ""
+    linkedin: str = ""
+    github: str = ""
+    portfolio: str = ""
     summary: str = ""
     education: list[Education] = field(default_factory=list)
     experience: list[Experience] = field(default_factory=list)
@@ -53,32 +53,32 @@ class Resume:
 
 @dataclass
 class CoverLetter:
-    full_name: str = "Aliullah"
-    address: str = "Rothenburger Str. 145, Nuremberg"
-    phone: str = "+4917658127708"
-    email: str = "aliullah623@gmail.com"
-    linkedin: str = "linkedin.com/in/aliullah623"
-    github: str = "github.com/Ali623"
-    portfolio: str = "ali623.github.io"
+    full_name: str = "Your Name"
+    address: str = ""
+    phone: str = ""
+    email: str = ""
+    linkedin: str = ""
+    github: str = ""
+    portfolio: str = ""
     recipient_name: str = ""
     recipient_city: str = ""
     salutation: str = "Dear Hiring Team,"
     paragraphs: list[str] = field(default_factory=list)
-    signoff_name: str = "Aliullah"
-    signoff_email: str = "aliullah623@gmail.com"
-    signoff_phone: str = "+4917658127708"
+    signoff_name: str = "Your Name"
+    signoff_email: str = ""
+    signoff_phone: str = ""
 
 
 # ─── DEFAULT CONTENT (backward-compatible with the old hardcoded data) ──────
 
 DEFAULT_RESUME = Resume(
-    full_name="Aliullah",
-    address="Rothenburger Str. 145, Nuremberg",
-    phone="+4917658127708",
-    email="aliullah623@gmail.com",
-    linkedin="linkedin.com/in/aliullah623",
-    github="github.com/Ali623",
-    portfolio="ali623.github.io",
+    full_name="Your Name",
+    address="",
+    phone="",
+    email="",
+    linkedin="",
+    github="",
+    portfolio="",
     education=[
         Education(
             uni="Friedrich-Alexander-Universitat",
@@ -165,13 +165,13 @@ DEFAULT_RESUME = Resume(
 )
 
 DEFAULT_COVER = CoverLetter(
-    full_name="Aliullah",
-    address="Rothenburger Str. 145, Nuremberg",
-    phone="+4917658127708",
-    email="aliullah623@gmail.com",
-    linkedin="linkedin.com/in/aliullah623",
-    github="github.com/Ali623",
-    portfolio="ali623.github.io",
+    full_name="Your Name",
+    address="",
+    phone="",
+    email="",
+    linkedin="",
+    github="",
+    portfolio="",
     recipient_name="Bending Spoons Recruitment Team",
     recipient_city="Milan, Italy",
     salutation="Dear Hiring Team,",
@@ -200,7 +200,7 @@ DEFAULT_COVER = CoverLetter(
             "opportunity to discuss how I can contribute. Thank you for your time and consideration."
         ),
     ],
-    signoff_name="Aliullah",
-    signoff_email="aliullah623@gmail.com",
-    signoff_phone="+4917658127708",
+    signoff_name="Your Name",
+    signoff_email="",
+    signoff_phone="",
 )

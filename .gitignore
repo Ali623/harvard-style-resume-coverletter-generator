@@ -219,4 +219,6 @@ __marimo__/
 
 # Project-specific
 .session_state.json
-Aliullah-*/
+output-*/
+*.docx
+*.pdf

@@ -27,7 +27,7 @@ def _clean_md(text: str) -> str:
 
 def _parse_resume_json(data: dict) -> Resume:
     r = Resume()
-    r.full_name = data.get('name', 'Aliullah')
+    r.full_name = data.get('name', 'Your Name')
 
     contact = data.get('contact', {})
     if contact:

@@ -136,7 +136,7 @@ save_dir = st.sidebar.text_input("Output directory", value=default_dir, key="sav
 if not save_dir:
     save_dir = tempfile.gettempdir()
 
-st.sidebar.caption("Files: Aliullah-Resume.docx / Aliullah-CoverLetter.docx")
+st.sidebar.caption("Files: Resume.docx / CoverLetter.docx")
 
 st.sidebar.subheader("Input method")
 input_method = st.sidebar.radio(
@@ -308,7 +308,7 @@ elif input_method == "Scrape Jobs":
                             # Generate docs immediately
                             import shutil
                             slug = lambda s: ''.join(c for c in s if c.isalnum() or c == '-').rstrip()
-                            folder_name = f"Aliullah-{slug(gen_company)}-{slug(gen_role)}"
+                            folder_name = f"{slug(gen_company)}-{slug(gen_role)}"
                             save_dir_val = st.session_state.get("save_dir", tempfile.gettempdir())
                             if not save_dir_val:
                                 save_dir_val = tempfile.gettempdir()
@@ -470,7 +470,7 @@ if st.session_state.parsed:
                 c_slug = slug(company) if company else "Company"
                 r_slug = slug(role) if role else "Role"
                 import shutil
-                folder_name = f"Aliullah-{c_slug}-{r_slug}"
+                folder_name = f"{c_slug}-{r_slug}"
                 output_dir = os.path.join(save_dir, folder_name)
                 if os.path.isdir(output_dir):
                     shutil.rmtree(output_dir)

@@ -1,6 +1,6 @@
 # Resume & Cover Letter Generator
 
-Generates Aliullah's resume and cover letter as A4 `.docx` and `.pdf` files. Two ways to use it: a Streamlit web UI or CLI scripts.
+Generates A4 resumes and cover letters as `.docx` and `.pdf` files. Two interfaces: a Streamlit web UI or CLI scripts. Fill in your details and generate tailored applications for any role.
 
 ## Setup
 
@@ -90,7 +90,7 @@ python generate_resume.py
 python generate_coverletter.py
 ```
 
-Output is written to `Aliullah-<Company>-<Role>/` containing:
+Output is written to `<Company>-<Role>/` containing:
 - `resume.docx` (and `.pdf` if LibreOffice is installed)
 - `coverletter.docx` (and `.pdf`)
 
@@ -101,13 +101,13 @@ Output is written to `Aliullah-<Company>-<Role>/` containing:
 ```json
 {
   "tailored_resume": {
-    "name": "Aliullah",
+    "name": "Your Name",
     "contact": {
-      "location": "Nuremberg, Germany",
-      "phone": "+49 176 58127708",
-      "email": "[aliullah623@gmail.com](mailto:aliullah623@gmail.com)",
-      "linkedin": "[https://www.linkedin.com/in/aliullah623](https://...)",
-      "github": "[https://github.com/Ali623](https://...)"
+      "location": "City, Country",
+      "phone": "+1 234 567890",
+      "email": "your.email@example.com",
+      "linkedin": "linkedin.com/in/yourprofile",
+      "github": "github.com/yourusername"
     },
     "professional_summary": ["line one", "line two"],
     "education": [
@@ -141,7 +141,7 @@ Output is written to `Aliullah-<Company>-<Role>/` containing:
     "salutation": "Dear Hiring Team,",
     "paragraphs": ["para one", "para two", "para three"],
     "closing": "Sincerely,",
-    "signature": "Aliullah"
+    "signature": "Your Name"
   }
 }
 ```

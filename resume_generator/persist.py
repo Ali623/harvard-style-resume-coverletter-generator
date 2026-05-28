@@ -32,7 +32,7 @@ def load_state() -> dict | None:
 def dict_to_resume(d: dict) -> Resume:
     """Reconstruct Resume from dict."""
     r = Resume(
-        full_name=d.get("full_name", "Aliullah"),
+        full_name=d.get("full_name", "Your Name"),
         address=d.get("address", ""),
         phone=d.get("phone", ""),
         email=d.get("email", ""),
@@ -59,7 +59,7 @@ def dict_to_resume(d: dict) -> Resume:
 def dict_to_cover(d: dict) -> CoverLetter:
     """Reconstruct CoverLetter from dict."""
     c = CoverLetter(
-        full_name=d.get("full_name", "Aliullah"),
+        full_name=d.get("full_name", "Your Name"),
         address=d.get("address", ""),
         phone=d.get("phone", ""),
         email=d.get("email", ""),
@@ -70,7 +70,7 @@ def dict_to_cover(d: dict) -> CoverLetter:
         recipient_city=d.get("recipient_city", ""),
         salutation=d.get("salutation", "Dear Hiring Team,"),
         paragraphs=d.get("paragraphs", []),
-        signoff_name=d.get("signoff_name", "Aliullah"),
+        signoff_name=d.get("signoff_name", "Your Name"),
         signoff_email=d.get("signoff_email", ""),
         signoff_phone=d.get("signoff_phone", ""),
     )

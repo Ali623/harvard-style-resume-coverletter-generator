@@ -18,7 +18,7 @@ parser.add_argument('--job-title', default='Role')
 args = parser.parse_args()
 
 slug = lambda s: ''.join(c for c in s if c.isalnum() or c == '-').rstrip()
-folder = f"Aliullah-{slug(args.company)}-{slug(args.job_title)}"
+folder = f"{slug(args.company)}-{slug(args.job_title)}"
 os.makedirs(folder, exist_ok=True)
 
 docx_path = build_coverletter(DEFAULT_COVER, output_dir=folder,

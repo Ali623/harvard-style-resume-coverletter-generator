@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project overview
 
-Generates Aliullah's resume and cover letter as `.docx` and `.pdf` on A4. Two interfaces: CLI scripts and a Streamlit web UI.
+Generates resumes and cover letters as `.docx` and `.pdf` on A4. Two interfaces: CLI scripts and a Streamlit web UI.
 
 ## Commands
 
@@ -19,7 +19,7 @@ python generate_resume.py --company "Bending Spoons" --role "Graduate AI Softwar
 python generate_coverletter.py --company "Bending Spoons" --role "Graduate AI Software Engineer"
 ```
 
-Output goes to `Aliullah-<Company>-<Role>/` folder containing `resume.docx` and `coverletter.docx` (plus `.pdf` if LibreOffice is installed).
+Output goes to `<Company>-<Role>/` folder containing `Resume.docx` and `CoverLetter.docx` (plus `.pdf` if LibreOffice is installed).
 
 ## Dependencies
 
