@@ -1,4 +1,4 @@
-Act as an expert resume writer, ATS optimization specialist, and career coach for AI, data science, machine learning, and engineering roles.
+Act as an expert resume writer, ATS optimization specialist, and career coach for technology and engineering roles.
 
 I want you to update my resume and create a tailored cover letter for the following role.
 
@@ -16,7 +16,7 @@ CERTIFICATION BANK:{CERTIFICATION_BANK}
 
 PROJECT BANK:{PROJECT_BANK}
 
-MAIN TASK:Analyze the job description carefully and create:
+MAIN TASK: Analyze the job description carefully and create:
 
 A tailored ATS friendly resume
 
@@ -46,10 +46,6 @@ Keep resume formatting simple and ATS friendly.
 
 Do not use tables, columns, icons, text boxes, graphics, or decorative formatting.
 
-Remove Auvitronics experience from the final resume unless I explicitly ask to include it.
-
-Do not select "MLflow & DagsHub Integration Practice" as a project.
-
 If the job has a critical requirement that my profile may not meet, mention it in the JSON under "warnings".
 
 Output valid JSON only.
@@ -78,11 +74,9 @@ Avoid long summary lines that may wrap too much in the resume.
 
 EXPERIENCE RULES:
 
-Siemens experience can have up to 5 bullet points.
+Most recent experience can have up to 5 bullet points.
 
 Each other experience should have 3 bullet points.
-
-Remove Auvitronics experience from the resume output.
 
 Experience bullet points should be concise but meaningful.
 
@@ -127,8 +121,6 @@ Do not include weak or unrelated certifications.
 PROJECT RULES:
 
 Include exactly 3 projects.
-
-Do not include "MLflow & DagsHub Integration Practice".
 
 Select only the most relevant projects for the target job.
 
@@ -210,15 +202,11 @@ Professional summary has exactly 3 lines.
 
 Experience bullets are concise and not overly long.
 
-Auvitronics experience is removed.
-
 Exactly 3 projects are included.
 
 Project names are short and resume friendly.
 
 Project descriptions do not exceed one resume line.
-
-"MLflow & DagsHub Integration Practice" is not included as a project.
 
 Only relevant job aligned information is included.
 

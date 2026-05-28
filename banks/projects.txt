@@ -1,33 +1,10 @@
-Real-time Facial Emotion Recognition Web App – Developed AI web app analyzing facial expressions in real-time for mental health and UX improvement.
-EDA on Tree Datasets in German Cities – Conducted exploratory data analysis on urban greenery datasets, generating actionable insights.
-xML Framework on Pokémon Dataset – Built explainable ML framework expanding 800 images into 60,000 with visualization tools.
-YOLO v5 Object Detector Implementation – Implemented state-of-the-art object detection system achieving high accuracy in real-time scenarios.
-Customer Churn & Risk Analysis – Delivered actionable insights via dynamic visualizations, improving retention strategies.
-Diversity & Inclusion Analytics – Leveraged data to design initiatives enhancing organizational diversity and inclusion metrics.
-Semi-Supervised Object Detection – Developed background-informed labeling to distinguish humans and vehicles in video frames.
-Brain Tumor Diagnosis using SIFT-DNN – Classified brain tumor types using SIFT features and deep learning, achieving high accuracy.
-KNN Classification on Iris Dataset – Applied k-nearest neighbors algorithm for multi-class prediction on Iris dataset.
-Employee Recommender System – Built personalized recommendation system improving employee career path alignment.
-Employee Performance Analysis – Evaluated work environment and job satisfaction metrics to identify performance drivers.
-Panorama Image Stitching – Developed SIFT, SURF, and ORB-based image stitching algorithm for high-resolution panoramas.
-Predictive Homesteads – Random Forest – Forecasted housing prices with Random Forest, optimizing predictive accuracy by 15%.
-Titanic Dataset EDA – Conducted exploratory data analysis uncovering key survival patterns and risk factors.
-Predictive Homesteads – Deep Learning – Built neural network models for housing price prediction, improving error margin.
-Personal Portfolio Website (ali623.github.io) – Developed a responsive JavaScript portfolio showcasing projects and skills.
-SmartCompare – AI Product Recommender – Designed Python-based recommender system delivering personalized product suggestions.
-AI Research Assistant for ArXiv Papers – Built Python assistant to extract, summarize, and organize research papers efficiently.
-Comparative Energy Timeseries Forecasting – Benchmarked ARIMA, HCNN, LSTM, and BLSTM for energy demand prediction.
-ARIMA-SARIMAX Daily Climate Forecasting – Predicted climate variables using ARIMA/SARIMAX achieving high forecast accuracy.
-Made-template-ws2324 – Developed HTML templates for advanced data engineering course projects.
-Brain Tumor Diagnosis – SIFT & SVM – Built SVM classifier using SIFT features to improve tumor detection accuracy.
-Classification of Iris Dataset using KNN – Implemented KNN classifier achieving 95% accuracy on Iris dataset.
-Fetal ECG Signal Analysis – Applied ML techniques for early detection of congenital heart defects in fetal ECG.
-Customer Churn Dashboard – Power BI – Designed interactive dashboards enabling actionable churn reduction strategies.
-Energy Load Forecasting – Deep Learning – Built deep learning models forecasting electrical load with ~12% improved accuracy.
-HVAC Energy TimeSeries Analysis – Conducted time series analysis and prediction of HVAC energy demand.
-Depression Detection – Upper Body Expressions – ML model using Kinect data for non-invasive depression detection.
-Food Intolerance Analysis & Treatment Optimization – Data-driven analytics for personalized dietary recommendations.
-Employee Performance Recommender System – Developed trait-based recommendation system to improve employee productivity.
-NLP & GenAI Projects – RAG & Multi-Agent – Built end-to-end NLP and GenAI pipelines with retrieval-augmented generation and multi-agent systems.
-Image Recognition SEO Enhancement – Leveraged deep learning for image recognition to boost website SEO performance by 20%.
-Predictive Maintenance Models – Real-Time Processes – Designed predictive maintenance and time series forecasting models, reducing downtime by 12%.
+E-Commerce Microservices Platform – Built scalable backend handling 1000+ concurrent orders with event-driven architecture.
+Real-Time Chat Application – Developed WebSocket-based chat app with end-to-end encryption and message persistence.
+Automated CI/CD Pipeline – Designed GitHub Actions workflow with automated testing, linting, and zero-downtime deployment.
+ML-Powered Recommendation Engine – Built collaborative filtering system improving product recommendations by 30%.
+Personal Portfolio Website – Developed responsive portfolio showcasing projects with modern CSS and JavaScript.
+IoT Sensor Data Dashboard – Created real-time monitoring dashboard for 1000+ IoT sensors with alerting.
+NLP Document Summarizer – Built transformer-based tool for automated document summarization and keyword extraction.
+Cloud Cost Optimization Tool – Designed automated resource scaling system reducing cloud costs by 25%.
+Food Delivery Route Optimizer – Implemented genetic algorithm for optimizing delivery routes across urban areas.
+Customer Churn Prediction Model – Built XGBoost model identifying at-risk customers with 85% precision.

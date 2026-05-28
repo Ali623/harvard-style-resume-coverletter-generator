@@ -1,8 +1,6 @@
-Google Data Analytics specialization from google
-Deep learning specialization from deeplearning.ai
-Machine Learning specialization from deeplearning.ai
-Machine learning in Production from deeplearning.ai
-Generative AI for Everyone from deeplearning.ai
-Data Visualization with Python from IBM
-ChatGPT Prompt Engineering for Developers from deeplearning.ai
-Certified Python Developer from CISCO
+AWS Solutions Architect Associate from Amazon Web Services
+Kubernetes Application Developer (CKAD) from CNCF
+Machine Learning Specialization from deeplearning.ai
+Deep Learning Specialization from deeplearning.ai
+Data Engineering Professional Certificate from Google
+Professional Scrum Master I from Scrum.org

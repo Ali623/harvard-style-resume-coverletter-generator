@@ -150,6 +150,19 @@ Additional top-level keys (`job_description_analysis`, `optimization_notes`, `wa
 
 **Free-form text (fallback).** The parser also accepts text with `2. Tailored Resume` and `3. Tailored Cover Letter` section markers.
 
+## Banks directory
+
+The `banks/` folder contains your personal content that the AI uses to generate tailored applications. **You must replace the sample data with your own information:**
+
+| File | What to update |
+|---|---|
+| `banks/cv.txt` | Your full CV: name, contact, education, experience, skills, projects, achievements |
+| `banks/certifications.txt` | List of your certifications (one per line) |
+| `banks/projects.txt` | List of your projects (one per line, format: `Name – Description`) |
+| `banks/prompt.txt` | AI prompt template — review and adjust rules to match your preferences |
+
+These files are read by the "AI Generate" flow in the Streamlit UI to produce tailored resumes and cover letters.
+
 ## Requirements
 
 - Python 3.12+
