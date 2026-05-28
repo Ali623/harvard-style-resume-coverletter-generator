@@ -40,13 +40,21 @@ pip install pywin32
 playwright install chromium
 ```
 
-### Configure API key
+### Configure environment
 
 ```bash
-# Copy the example env file and add your DeepSeek API key
 cp .env.example .env
-# Edit .env and set DEEPSEEK_API_KEY=your-key-here
 ```
+
+Edit `.env` and fill in your credentials:
+
+| Variable | Description |
+|---|---|
+| `DEEPSEEK_API_KEY` | API key for DeepSeek (AI content generation) |
+| `LINKEDIN_EMAIL` | LinkedIn account email (for job scraping) |
+| `LINKEDIN_PASSWORD` | LinkedIn account password |
+| `XING_EMAIL` | XING account email (for job scraping) |
+| `XING_PASSWORD` | XING account password |
 
 ### Run
 
