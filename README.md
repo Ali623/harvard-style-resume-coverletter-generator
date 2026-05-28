@@ -58,6 +58,13 @@ Edit `.env` and fill in your credentials:
 
 ### Run
 
+**Windows quick launch:**
+```bash
+run.bat
+```
+This activates the venv, starts the Streamlit server, and opens the app in your browser.
+
+**Manual launch:**
 ```bash
 # Streamlit web UI
 streamlit run app.py
