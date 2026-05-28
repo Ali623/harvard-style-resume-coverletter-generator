@@ -1,0 +1,227 @@
+Act as an expert resume writer, ATS optimization specialist, and career coach for AI, data science, machine learning, and engineering roles.
+
+I want you to update my resume and create a tailored cover letter for the following role.
+
+JOB TITLE:{JOB_TITLE}
+
+COMPANY:{COMPANY}
+
+LOCATION:{LOCATION}
+
+JOB DESCRIPTION:{JOB_DESCRIPTION}
+
+CURRENT CV:{CURRENT_CV}
+
+CERTIFICATION BANK:{CERTIFICATION_BANK}
+
+PROJECT BANK:{PROJECT_BANK}
+
+MAIN TASK:Analyze the job description carefully and create:
+
+A tailored ATS friendly resume
+
+A concise tailored cover letter
+
+A short LinkedIn message to the hiring manager or job poster
+
+A short explanation of what was optimized
+
+IMPORTANT RULES:
+
+Do not invent fake experience, companies, degrees, tools, results, or certifications.
+
+You may rephrase my real experience to better match the job description.
+
+You may select the most relevant certifications and projects from the provided banks.
+
+Use strong action verbs such as built, developed, implemented, analyzed, improved, delivered, engineered, evaluated, optimized, automated, designed, collaborated, presented, and maintained.
+
+Keep the tone professional, confident, human, and natural.
+
+Avoid generic AI sounding sentences.
+
+Do not use long dashes.
+
+Keep resume formatting simple and ATS friendly.
+
+Do not use tables, columns, icons, text boxes, graphics, or decorative formatting.
+
+Remove Auvitronics experience from the final resume unless I explicitly ask to include it.
+
+Do not select "MLflow & DagsHub Integration Practice" as a project.
+
+If the job has a critical requirement that my profile may not meet, mention it in the JSON under "warnings".
+
+Output valid JSON only.
+
+Do not add markdown.
+
+Do not wrap the JSON in code fences.
+
+Use double quotes for all JSON keys and string values.
+
+Do not include comments inside the JSON.
+
+Make sure the JSON can be parsed directly.
+
+PROFESSIONAL SUMMARY RULES:
+
+Write exactly 3 lines.
+
+Each line should be concise, strong, and role specific.
+
+Do not repeat the same skills across all three lines.
+
+Focus only on the strongest match with the job description.
+
+Avoid long summary lines that may wrap too much in the resume.
+
+EXPERIENCE RULES:
+
+Siemens experience can have up to 5 bullet points.
+
+Each other experience should have 3 bullet points.
+
+Remove Auvitronics experience from the resume output.
+
+Experience bullet points should be concise but meaningful.
+
+Each bullet point should ideally be 95 to 140 characters.
+
+Avoid long bullets that move heavily into a second line.
+
+Each bullet should include action, method or tool, and outcome where possible.
+
+Use measurable results where available.
+
+Focus only on information relevant to the job description.
+
+Remove weak, generic, or unrelated responsibilities.
+
+Start each bullet point with a strong action verb.
+
+Include job description keywords naturally.
+
+DIGITAL COMPETENCIES RULES:
+
+Create exactly 5 skill categories.
+
+Each category should be relevant to the job.
+
+Keep each category concise.
+
+Do not overload the section with too many tools.
+
+Do not include tools that are not supported by my CV or project bank.
+
+If a tool appears in the job description but is not supported by my profile, mention it only in warnings.
+
+CERTIFICATION RULES:
+
+Choose exactly 3 certifications from the certification bank.
+
+Select only certifications relevant to the target job.
+
+Do not include weak or unrelated certifications.
+
+PROJECT RULES:
+
+Include exactly 3 projects.
+
+Do not include "MLflow & DagsHub Integration Practice".
+
+Select only the most relevant projects for the target job.
+
+Project names should be short and clean, ideally 2 to 4 words.
+
+Rewrite long project names into shorter resume friendly names.
+
+Each project description should be one concise bullet point only.
+
+Each project description should ideally stay under 120 characters.
+
+Each project description must not exceed one resume line.
+
+Each project should show the technical method and practical value.
+
+Do not include weak or unrelated projects just to fill space.
+
+ACHIEVEMENT RULES:
+
+Include exactly 2 achievements.
+
+Choose the strongest and most relevant achievements.
+
+Keep each achievement concise.
+
+COVER LETTER RULES:
+
+Write 3 to 4 paragraphs.
+
+Mention the job title and company in the opening.
+
+Explain why my background fits the role.
+
+Give concrete examples from my experience.
+
+Show interest in the company without sounding exaggerated.
+
+Avoid repeating the resume word for word.
+
+End with a confident closing.
+
+Do not use long dashes.
+
+LINKEDIN MESSAGE RULES:
+
+Keep it under 600 characters.
+
+Sound natural and polite.
+
+Do not directly beg for a referral.
+
+Ask one thoughtful question to start a conversation.
+
+Mention the role and one relevant area of fit.
+
+Do not use long dashes.
+
+RETURN THE OUTPUT USING THIS EXACT JSON STRUCTURE:
+
+{"job_details": {"job_title": "","company": "","location": "","job_description_summary": ""},"job_description_analysis": {"role_focus": "","key_technical_skills": [],"key_responsibilities": [],"important_tools_and_platforms": [],"soft_skills": [],"business_or_industry_keywords": [],"top_10_ats_keywords": []},"tailored_resume": {"name": "","contact": {"location": "","phone": "","email": "","linkedin": "","github": ""},"professional_summary": [],"education": [{"institution": "","location": "","degree": "","grade": "","dates": ""}],"experience": [{"company": "","location": "","title": "","dates": "","bullet_points": []}],"digital_competencies": [{"category": "","skills": []}],"certifications": [],"projects": [{"name": "","description": ""}],"achievements": []},"cover_letter": {"salutation": "","paragraphs": [],"closing": "","signature": ""},"linkedin_message": "","optimization_notes": {"main_positioning": "","keywords_added": [],"experience_reframed": [],"certifications_selected_reason": "","projects_selected_reason": "","ats_improvements": []},"warnings": []}
+
+FINAL CHECK BEFORE ANSWERING:
+
+The JSON starts with "job_details".
+
+The JSON includes the job title, company name, location, and job description summary.
+
+The JSON is valid and parseable.
+
+The resume matches the job description.
+
+The cover letter is specific to the company.
+
+The LinkedIn message sounds human.
+
+The resume is ATS friendly.
+
+Professional summary has exactly 3 lines.
+
+Experience bullets are concise and not overly long.
+
+Auvitronics experience is removed.
+
+Exactly 3 projects are included.
+
+Project names are short and resume friendly.
+
+Project descriptions do not exceed one resume line.
+
+"MLflow & DagsHub Integration Practice" is not included as a project.
+
+Only relevant job aligned information is included.
+
+No fake information was added.
+
+No long dashes were used.

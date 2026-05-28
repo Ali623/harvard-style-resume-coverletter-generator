@@ -1,0 +1,75 @@
+Aliullah
+Rothenburger Str. 145, 90439, Nuremberg, Germany
++4917658127708
+https://www.linkedin.com/in/aliullah623
+https://github.com/Ali623
+aliullah623@gmail.com
+
+Education
+
+Friedrich-Alexander-Universität
+Erlangen, Germany
+MSc. Artificial Intelligence, Note 1.6
+April 2023 – March 2026 (Expected)
+
+NED University of Engineering and Technology
+Karachi, Pakistan
+BE., Industrial and Manufacturing Engineering, Grade 1.1
+December 2016 – October 2020
+
+Experience
+
+Siemens
+Nuremberg, Germany
+Working Student – Data Scientist
+October 2024 – March 2026
+Fine-tuned foundation models for energy time series forecasting for clients to deliver dedicated highly accurate one stop solution.
+Built and benchmarked forecasting models across industrial data, improving accuracy by 10–12% across client use cases.
+Implemented MLflow-based experiment tracking, model versioning, and pipeline orchestration to ensure reproducibility and scalable deployment.
+Extended production forecasting API with interpretable features, enriched metrics, and automated tests, improving model selection reliability and increasing API usage to 20x.
+Delivered Streamlit based product demos to 100+ stakeholders at internal and external Siemens events, supporting adoption and validation.
+
+TecHayal
+Remote
+Data Scientist
+November 2022 – March 2023
+Implemented deep learning pipelines to enhance image recognition SEO accuracy by 30%.
+Deployed Python-based APIs improving data retrieval efficiency across AI tasks.
+Conducted data mining and insights generation to support product strategy decisions.
+
+Freelance
+Remote
+Data Scientist and Analyst
+October 2021 – November 2022
+Built predictive maintenance models that minimized downtime by ~12%.
+Implemented time-series forecasting for sales and inventory, increasing planning efficiency.
+Delivered interactive dashboards for real-time decision-making to diverse stakeholders.
+
+Auvitronics Ltd.
+Karachi, Pakistan
+Data Analyst
+October 2020 – October 2021
+Analyzed logistics and demand data to improve decisions, increasing efficiency by 20%.
+Conducted shipment trend analysis that reduced downtime and costs by 12%.
+Optimized transport routes, achieving a 10–15% cost reduction.
+
+Digital Competencies
+Programming: Python, SQL
+AI/ML Engineering: scikit-learn, TensorFlow, PyTorch, Transformers, GenAI
+Data Engineering & ETL: Pandas, Dockerized workflows, MySQL
+Visualization & Tools: Streamlit, Plotly, Tableau, Power BI, MS Office
+Cloud & DevOps: Git, GitHub, GitLab, Docker, AWS (S3, EC2), CI/CD
+
+Certificates
+Generative AI for Everyone from deeplearning.ai
+Deep Learning Specialization from deeplearning.ai
+Machine Learning in Production from deeplearning.ai
+
+Projects
+AI Research Assistant: Engineered NLP tool for automated research paper summarization and metadata extraction.
+SmartCompare - AI Product Recommender: Designed a recommender system for personalized product suggestions.
+Comparative Energy Time Series Forecasting: Benchmarked ARIMA, HCNN, LSTM, and BLSTM for energy demand.
+
+Achievements
+Ranked 2nd in bachelor's with a 3.9/4.0 GPA (1.1 German grade).
+Recipient of multiple merit-based scholarships awarded by HEC Pakistan and other organizations.
